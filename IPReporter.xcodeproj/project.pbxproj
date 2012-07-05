@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F9E1BA98E04A89A6001562 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB90A8626624A8A8CA937FF /* libPods.a */; };
+		F7EDE5C315A6063800C5903E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EDE5C215A6063800C5903E /* Foundation.framework */; };
+		F7EDE5C615A6063800C5903E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EDE5C515A6063800C5903E /* main.m */; };
+		F7EDE5CA15A6063800C5903E /* IPReporter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7EDE5C915A6063800C5903E /* IPReporter.1 */; };
+		F7EDE5D115A6068B00C5903E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EDE5D015A6068B00C5903E /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7EDE5BC15A6063800C5903E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F7EDE5CA15A6063800C5903E /* IPReporter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FB90A8626624A8A8CA937FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B55C74802B45E19D6E2BB6 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		F7EDE5BE15A6063800C5903E /* IPReporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IPReporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EDE5C215A6063800C5903E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7EDE5C515A6063800C5903E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7EDE5C815A6063800C5903E /* IPReporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPReporter-Prefix.pch"; sourceTree = "<group>"; };
+		F7EDE5C915A6063800C5903E /* IPReporter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IPReporter.1; sourceTree = "<group>"; };
+		F7EDE5D015A6068B00C5903E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7EDE5BB15A6063800C5903E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EDE5D115A6068B00C5903E /* SystemConfiguration.framework in Frameworks */,
+				F7EDE5C315A6063800C5903E /* Foundation.framework in Frameworks */,
+				00F9E1BA98E04A89A6001562 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7EDE5B315A6063800C5903E = {
+			isa = PBXGroup;
+			children = (
+				F7EDE5C415A6063800C5903E /* IPReporter */,
+				F7EDE5C115A6063800C5903E /* Frameworks */,
+				F7EDE5BF15A6063800C5903E /* Products */,
+				96B55C74802B45E19D6E2BB6 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		F7EDE5BF15A6063800C5903E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7EDE5BE15A6063800C5903E /* IPReporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7EDE5C115A6063800C5903E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7EDE5D015A6068B00C5903E /* SystemConfiguration.framework */,
+				F7EDE5C215A6063800C5903E /* Foundation.framework */,
+				3FB90A8626624A8A8CA937FF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7EDE5C415A6063800C5903E /* IPReporter */ = {
+			isa = PBXGroup;
+			children = (
+				F7EDE5C515A6063800C5903E /* main.m */,
+				F7EDE5C915A6063800C5903E /* IPReporter.1 */,
+				F7EDE5C715A6063800C5903E /* Supporting Files */,
+			);
+			path = IPReporter;
+			sourceTree = "<group>";
+		};
+		F7EDE5C715A6063800C5903E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7EDE5C815A6063800C5903E /* IPReporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7EDE5BD15A6063800C5903E /* IPReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7EDE5CD15A6063800C5903E /* Build configuration list for PBXNativeTarget "IPReporter" */;
+			buildPhases = (
+				F7EDE5BA15A6063800C5903E /* Sources */,
+				F7EDE5BB15A6063800C5903E /* Frameworks */,
+				F7EDE5BC15A6063800C5903E /* CopyFiles */,
+				E36A762AB8BB4948A5291199 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPReporter;
+			productName = IPReporter;
+			productReference = F7EDE5BE15A6063800C5903E /* IPReporter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7EDE5B515A6063800C5903E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Clemson University";
+			};
+			buildConfigurationList = F7EDE5B815A6063800C5903E /* Build configuration list for PBXProject "IPReporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7EDE5B315A6063800C5903E;
+			productRefGroup = F7EDE5BF15A6063800C5903E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7EDE5BD15A6063800C5903E /* IPReporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E36A762AB8BB4948A5291199 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7EDE5BA15A6063800C5903E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EDE5C615A6063800C5903E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7EDE5CB15A6063800C5903E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F7EDE5CC15A6063800C5903E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F7EDE5CE15A6063800C5903E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B55C74802B45E19D6E2BB6 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPReporter/IPReporter-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PODS_ROOT)/Headers\"/**",
+					"\"$(PODS_ROOT)/Headers/AFNetworking\"/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7EDE5CF15A6063800C5903E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B55C74802B45E19D6E2BB6 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPReporter/IPReporter-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PODS_ROOT)/Headers\"/**",
+					"\"$(PODS_ROOT)/Headers/AFNetworking\"/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7EDE5B815A6063800C5903E /* Build configuration list for PBXProject "IPReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EDE5CB15A6063800C5903E /* Debug */,
+				F7EDE5CC15A6063800C5903E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7EDE5CD15A6063800C5903E /* Build configuration list for PBXNativeTarget "IPReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EDE5CE15A6063800C5903E /* Debug */,
+				F7EDE5CF15A6063800C5903E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7EDE5B515A6063800C5903E /* Project object */;
+}
