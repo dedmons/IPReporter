@@ -48,12 +48,65 @@ static void PrintReachabilityFlags(
             );
 }
 
+static NSString* getIP(AFHTTPClient *client){
+    [client getPath:@"/v1/ip/mine"
+         parameters:nil
+            success:nil
+            failure:nil];
+    
+    AFHTTPRequestOperation *op = [client.operationQueue.operations lastObject];
+    while (!op.isFinished) {
+//        NSLog(@"Sleeping ... ");
+//        sleep(1);
+    }
+    NSLog(@"%ld",op.response.statusCode);
+
+    NSDictionary *d = [NSJSONSerialization JSONObjectWithData:op.responseData options:NSJSONReadingAllowFragments error:nil];
+    NSLog(@"%@",d);
+    
+    return [d objectForKey:@"CLIENT_IP"];
+}
+
+static void registerIP(AFHTTPClient *client, NSDictionary *data){
+    [client postPath:@"/v1/ip/report"
+          parameters:data
+             success:nil
+             failure:nil];
+    
+    AFHTTPRequestOperation *op = [client.operationQueue.operations lastObject];
+    while (!op.isFinished) {
+//        NSLog(@"Sleeping ... ");
+//        sleep(1);
+    }
+    NSLog(@"Status Code: %ld",op.response.statusCode);
+
+    NSDictionary *d = [NSJSONSerialization JSONObjectWithData:op.responseData options:NSJSONReadingAllowFragments error:nil];
+    NSLog(@"%@",d);
+}
+
+static void deleteRecords(AFHTTPClient *client){
+    [client deletePath:@"ip/records"
+          parameters:[NSDictionary dictionaryWithObject:@"YES" forKey:@"check"]
+             success:nil
+             failure:nil];
+    
+    AFHTTPRequestOperation *op = [client.operationQueue.operations lastObject];
+    
+    while (!op.isFinished);
+    
+    NSLog(@"Status Code: %ld",op.response.statusCode);
+    
+    if (op.responseData) {
+        NSDictionary *d = [NSJSONSerialization JSONObjectWithData:op.responseData options:NSJSONReadingAllowFragments error:nil];
+        NSLog(@"%@",d);
+    }
+}
+
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-//        __block BOOL isDone = NO;
-        
+                
         // insert code here...
         const char *host = "apis.dedmonson.com";
         SCNetworkReachabilityRef ref = SCNetworkReachabilityCreateWithName(NULL, host);
@@ -62,45 +115,20 @@ int main(int argc, const char * argv[])
         PrintReachabilityFlags(host, flags, NULL);
 
         if (flags & kSCNetworkFlagsReachable) {
-//            NSLog(@"Server Reachable");
-            AFHTTPClient *client = [AFHTTPClient clientWithBaseURL:[NSURL URLWithString:@"http://apis.dedmonson.com"]];
+            AFHTTPClient *client = [AFHTTPClient clientWithBaseURL:[NSURL URLWithString:@"http://apis.dedmonson.com/v1/"]];
             [client setDefaultHeader:@"json" value:@"Accept-Encoding"];
-            [client getPath:@"/ip/mine"
-                 parameters:nil
-                    success:^(AFHTTPRequestOperation *operation, id responseObject) {
-                        dispatch_async(dispatch_get_main_queue(), ^{
-                            NSLog(@"res: %@",responseObject);
-                        });
-                    }
-                    failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                        dispatch_async(dispatch_get_main_queue(), ^{
-                            NSLog(@"Err: %@",error);
-                        });
-                    }];
-            AFHTTPRequestOperation *op = [client.operationQueue.operations lastObject];
-            while (!op.isFinished) {
-                NSLog(@"Sleeping ... ");
-                sleep(1);
-            }
-            NSLog(@"%ld",op.response.statusCode);
-            NSLog(@"%@",op.responseString);
-            NSDictionary *d = [NSJSONSerialization JSONObjectWithData:op.responseData options:NSJSONReadingAllowFragments error:nil];
-            NSLog(@"%@",d);
+            client.deleteEncodedInURL = NO;
             
-            [client postPath:@"/ip/report"
-                  parameters:[NSDictionary dictionaryWithObject:[d objectForKey:@"CLIENT_IP"] forKey:@"ip"]
-                     success:nil
-                     failure:nil];
+            NSString *hostname = [[NSHost currentHost] name];
+            hostname = [[hostname componentsSeparatedByString:@"."] objectAtIndex:0];
+
+            NSMutableDictionary *data = [NSMutableDictionary dictionary];
+            [data setObject:hostname forKey:@"host"];
+            [data setObject:NSUserName() forKey:@"user"];
             
-            op = [client.operationQueue.operations lastObject];
-            while (!op.isFinished) {
-                NSLog(@"Sleeping ... ");
-                sleep(1);
-            }
-            NSLog(@"%ld",op.response.statusCode);
-            NSLog(@"%@",op.responseString);
-            d = [NSJSONSerialization JSONObjectWithData:op.responseData options:NSJSONReadingAllowFragments error:nil];
-            NSLog(@"%@",d);
+            //getIP(client);
+            //registerIP(client, data);
+            deleteRecords(client);
         }
     }
     return 0;

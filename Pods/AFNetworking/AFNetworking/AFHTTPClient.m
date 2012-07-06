@@ -251,6 +251,7 @@ static NSString * AFPropertyListStringFromParameters(NSDictionary *parameters) {
 @synthesize baseURL = _baseURL;
 @synthesize stringEncoding = _stringEncoding;
 @synthesize parameterEncoding = _parameterEncoding;
+@synthesize deleteEncodedInURL = _deleteEncodedInURL;
 @synthesize registeredHTTPOperationClassNames = _registeredHTTPOperationClassNames;
 @synthesize defaultHeaders = _defaultHeaders;
 @synthesize operationQueue = _operationQueue;
@@ -274,6 +275,7 @@ static NSString * AFPropertyListStringFromParameters(NSDictionary *parameters) {
     
     self.stringEncoding = NSUTF8StringEncoding;
     self.parameterEncoding = AFFormURLParameterEncoding;
+    self.deleteEncodedInURL = YES;
 	
     self.registeredHTTPOperationClassNames = [NSMutableArray array];
     
@@ -465,7 +467,7 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
     [request setAllHTTPHeaderFields:self.defaultHeaders];
 	
     if (parameters) {        
-        if ([method isEqualToString:@"GET"] || [method isEqualToString:@"HEAD"] || [method isEqualToString:@"DELETE"]) {
+        if ([method isEqualToString:@"GET"] || [method isEqualToString:@"HEAD"] || (self.deleteEncodedInURL && [method isEqualToString:@"DELETE"])) {
             url = [NSURL URLWithString:[[url absoluteString] stringByAppendingFormat:[path rangeOfString:@"?"].location == NSNotFound ? @"?%@" : @"&%@", AFQueryStringFromParametersWithEncoding(parameters, self.stringEncoding)]];
             [request setURL:url];
         } else {
@@ -657,6 +659,8 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
 	NSURLRequest *request = [self requestWithMethod:@"DELETE" path:path parameters:parameters];
 	AFHTTPRequestOperation *operation = [self HTTPRequestOperationWithRequest:request success:success failure:failure];
     [self enqueueHTTPRequestOperation:operation];
+    NSLog(@"HTTP Body: %@",[[NSString alloc] initWithData:request.HTTPBody encoding:NSUTF8StringEncoding]);
+    NSLog(@"Request URL: %@",request.URL.absoluteString);
 }
 
 - (void)patchPath:(NSString *)path 

@@ -148,6 +148,8 @@ extern NSString * AFQueryStringFromParametersWithEncoding(NSDictionary *paramete
  */
 @property (nonatomic, assign) AFHTTPClientParameterEncoding parameterEncoding;
 
+@property (nonatomic, assign) BOOL deleteEncodedInURL;
+
 /**
  The operation queue which manages operations enqueued by the HTTP client.
  */
