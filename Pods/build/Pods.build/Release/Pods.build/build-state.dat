@@ -1,0 +1,269 @@
+TPods
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch.pth Pods-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPRequestOperation.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONRequestOperation.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPClient.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPClient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONUtilities.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFPropertyListRequestOperation.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFURLConnectionOperation.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFXMLRequestOperation.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/libPods.a normal x86_64
+
+N/Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000004FCF39E900000000000000AA
+t1338980841
+s170
+
+N/Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004FD00DA5000000000024B744
+t1339035045
+s2406212
+
+N/Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004FD00DB100000000000025C8
+t1339035057
+s9672
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPClient.m
+c000000004FF652A00000000000008342
+t1341543072
+s33602
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+c000000004FF5D3F00000000000003300
+t1341510640
+s13056
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m
+c000000004FF5D28F0000000000001466
+t1341510287
+s5222
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m
+c000000004FF5D28F0000000000002C6C
+t1341510287
+s11372
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m
+c000000004FF5D28F00000000000013C6
+t1341510287
+s5062
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m
+c000000004FF5D28F000000000000174B
+t1341510287
+s5963
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+c000000004FF5D28F0000000000005115
+t1341510287
+s20757
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m
+c000000004FF5D28F0000000000001AD3
+t1341510287
+s6867
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/Pods-prefix.pch
+c000000004FF5D28F000000000000002F
+t1341510287
+s47
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPClient.o
+t2
+s0
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPRequestOperation.o
+t2
+s0
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONRequestOperation.o
+t2
+s0
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONUtilities.o
+t2
+s0
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o
+t2
+s0
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFPropertyListRequestOperation.o
+t2
+s0
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFURLConnectionOperation.o
+t2
+s0
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFXMLRequestOperation.o
+t2
+s0
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/Pods.LinkFileList
+c000000004FF6E667000000000000042B
+t1341580903
+s1067
+
+N/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/libPods.a
+t2
+s0
+
+N/var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch.pth
+t1341580636
+s13708804
+
+CBuild AST from /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPClient.m
+r0
+
+CBuild AST from /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+r0
+
+CBuild AST from /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m
+r0
+
+CBuild AST from /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m
+r0
+
+CBuild AST from /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m
+r0
+
+CBuild AST from /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m
+r0
+
+CBuild AST from /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+r0
+
+CBuild AST from /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies213c42e71da7b541^5a0f5be71da7b541^---0#1#0#--18"Check dependencies36"601E7300-8CCF-4598-9BEC-C578FE0516E1-
+
+CCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPClient.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPClient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363273703.369065
+e363273703.901467
+r1
+xCompileC
+xbuild/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPClient.o
+x/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPClient.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPClient.ma0165fe71da7b541^c6c4e6e71da7b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPClient.m0000000000000000^2645"CompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPClient.o AFNetworking/AFNetworking/AFHTTPClient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dedmons/Documents/Programs/IPReporter/Pods    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Pods.hmap -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/include -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers/AFNetworking -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources/x86_64 -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources -F/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release -include /var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch -MMD -MT dependencies -MF /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPClient.d --serialize-diagnostics /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPClient.dia -c /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPClient.m -o /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPClient.o36"B6841996-AA7B-4DF2-8107-C006D09B5E85-
+
+CCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPRequestOperation.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363273703.369051
+e363273703.765089
+r1
+xCompileC
+xbuild/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPRequestOperation.o
+x/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m392a5fe71da7b541^42e9c3e71da7b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m0000000000000000^2705"CompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPRequestOperation.o AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dedmons/Documents/Programs/IPReporter/Pods    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Pods.hmap -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/include -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers/AFNetworking -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources/x86_64 -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources -F/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release -include /var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch -MMD -MT dependencies -MF /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPRequestOperation.d --serialize-diagnostics /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPRequestOperation.dia -c /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m -o /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFHTTPRequestOperation.o36"1206A1D5-3AC3-4762-8879-342390BB08B9-
+
+CCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONRequestOperation.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363273703.369151
+e363273703.633210
+r1
+xCompileC
+xbuild/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONRequestOperation.o
+x/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m44185fe71da7b541^ac58a4e71da7b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m0000000000000000^2705"CompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONRequestOperation.o AFNetworking/AFNetworking/AFJSONRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dedmons/Documents/Programs/IPReporter/Pods    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Pods.hmap -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/include -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers/AFNetworking -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources/x86_64 -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources -F/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release -include /var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch -MMD -MT dependencies -MF /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONRequestOperation.d --serialize-diagnostics /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONRequestOperation.dia -c /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m -o /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONRequestOperation.o36"CE7C4B11-7FF5-49A2-880A-B86465F7E71E-
+
+CCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONUtilities.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363273703.370953
+e363273703.626540
+r1
+xCompileC
+xbuild/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONUtilities.o
+x/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONUtilities.mca335fe71da7b541^e562a0e71da7b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m0000000000000000^2663"CompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONUtilities.o AFNetworking/AFNetworking/AFJSONUtilities.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dedmons/Documents/Programs/IPReporter/Pods    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Pods.hmap -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/include -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers/AFNetworking -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources/x86_64 -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources -F/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release -include /var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch -MMD -MT dependencies -MF /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONUtilities.d --serialize-diagnostics /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONUtilities.dia -c /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m -o /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFJSONUtilities.o36"CB84FC92-6A95-43EF-90EC-D800D1B8A8C7-
+
+CCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363273703.627880
+e363273703.691333
+r1
+xCompileC
+xbuild/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o
+x/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m6d20a1e71da7b541^a0f9b0e71da7b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^2771"CompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dedmons/Documents/Programs/IPReporter/Pods    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Pods.hmap -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/include -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers/AFNetworking -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources/x86_64 -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources -F/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release -include /var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch -MMD -MT dependencies -MF /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.d --serialize-diagnostics /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.dia -c /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m -o /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o36"A57878DC-0E42-4C60-B924-20506C02AB22-
+
+CCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFPropertyListRequestOperation.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363273703.642190
+e363273703.836026
+r1
+xCompileC
+xbuild/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFPropertyListRequestOperation.o
+x/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.mff40a5e71da7b541^b403d6e71da7b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m0000000000000000^2753"CompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFPropertyListRequestOperation.o AFNetworking/AFNetworking/AFPropertyListRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dedmons/Documents/Programs/IPReporter/Pods    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Pods.hmap -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/include -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers/AFNetworking -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources/x86_64 -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources -F/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release -include /var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch -MMD -MT dependencies -MF /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFPropertyListRequestOperation.d --serialize-diagnostics /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFPropertyListRequestOperation.dia -c /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m -o /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFPropertyListRequestOperation.o36"856BB8D9-E3D5-4493-9401-2F121D97D89F-
+
+CCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFURLConnectionOperation.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363273703.692671
+e363273703.963893
+r1
+xCompileC
+xbuild/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFURLConnectionOperation.o
+x/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m897eb1e71da7b541^5dc1f6e71da7b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m0000000000000000^2717"CompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFURLConnectionOperation.o AFNetworking/AFNetworking/AFURLConnectionOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dedmons/Documents/Programs/IPReporter/Pods    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Pods.hmap -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/include -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers/AFNetworking -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources/x86_64 -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources -F/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release -include /var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch -MMD -MT dependencies -MF /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFURLConnectionOperation.d --serialize-diagnostics /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFURLConnectionOperation.dia -c /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m -o /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFURLConnectionOperation.o36"718D848A-F3C9-46D1-80E0-911CBF748E91-
+
+CCompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFXMLRequestOperation.o /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363273703.773956
+e363273703.915757
+r1
+xCompileC
+xbuild/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFXMLRequestOperation.o
+x/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.ma2ebc6e71da7b541^83c3ebe71da7b541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m0000000000000000^2699"CompileC build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFXMLRequestOperation.o AFNetworking/AFNetworking/AFXMLRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dedmons/Documents/Programs/IPReporter/Pods    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Pods.hmap -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/include -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers -I/Users/dedmons/Documents/Programs/IPReporter/Pods/Headers/AFNetworking -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources/x86_64 -I/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/DerivedSources -F/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release -include /var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch -MMD -MT dependencies -MF /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFXMLRequestOperation.d --serialize-diagnostics /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFXMLRequestOperation.dia -c /Users/dedmons/Documents/Programs/IPReporter/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m -o /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFXMLRequestOperation.o36"9D93B8E9-D9F5-4078-B343-923D6E9A6474-
+
+CLibtool /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/libPods.a normal x86_64
+s363273703.970176
+e363273703.980625
+r1
+xLibtool
+x/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/libPods.a
+xnormal
+xx86_64
+o/Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Libtool build/Release/libPods.a normal x86_648670f8e71da7b541^2508fbe71da7b541^-267"/Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o has no symbols-0#0#0#--706"Libtool build/Release/libPods.a normal x86_64    cd /Users/dedmons/Documents/Programs/IPReporter/Pods    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode45-DP1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode45-DP1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release -filelist /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Pods.build/Release/Pods.build/Objects-normal/x86_64/Pods.LinkFileList -framework AppKit -framework Cocoa -o /Users/dedmons/Documents/Programs/IPReporter/Pods/build/Release/libPods.a36"B7835016-3576-429B-B424-45DEBB97DCD7-
+
+CProcessPCH /Users/dedmons/Library/Developer/Xcode/DerivedData/IPReporter-dykscwlcfdtbtneusimoewbbuchh/Index/PrecompiledHeaders/Pods-prefix-bxklmwdmuxmrlwcmkugcnurgowrg_ast/Pods-prefix.pch.pth Pods-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/0n/gjjd3qrx21vdb44l86jbh8bh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-anjzpzznweziugfamgtyarwriahs/Pods-prefix.pch.pth Pods-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+

@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00F9E1BA98E04A89A6001562 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB90A8626624A8A8CA937FF /* libPods.a */; };
 		F7EDE5C315A6063800C5903E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EDE5C215A6063800C5903E /* Foundation.framework */; };
 		F7EDE5C615A6063800C5903E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EDE5C515A6063800C5903E /* main.m */; };
 		F7EDE5CA15A6063800C5903E /* IPReporter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7EDE5C915A6063800C5903E /* IPReporter.1 */; };
 		F7EDE5D115A6068B00C5903E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EDE5D015A6068B00C5903E /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		F7FF980215A71E970067EFFB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FF980115A71E970067EFFB /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3FB90A8626624A8A8CA937FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B55C74802B45E19D6E2BB6 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		F7EDE5BE15A6063800C5903E /* IPReporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IPReporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EDE5C215A6063800C5903E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +35,7 @@
 		F7EDE5C815A6063800C5903E /* IPReporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPReporter-Prefix.pch"; sourceTree = "<group>"; };
 		F7EDE5C915A6063800C5903E /* IPReporter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IPReporter.1; sourceTree = "<group>"; };
 		F7EDE5D015A6068B00C5903E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7FF980115A71E970067EFFB /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = Pods/build/Release/libPods.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,9 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7FF980215A71E970067EFFB /* libPods.a in Frameworks */,
 				F7EDE5D115A6068B00C5903E /* SystemConfiguration.framework in Frameworks */,
 				F7EDE5C315A6063800C5903E /* Foundation.framework in Frameworks */,
-				00F9E1BA98E04A89A6001562 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,9 +73,9 @@
 		F7EDE5C115A6063800C5903E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F7FF980115A71E970067EFFB /* libPods.a */,
 				F7EDE5D015A6068B00C5903E /* SystemConfiguration.framework */,
 				F7EDE5C215A6063800C5903E /* Foundation.framework */,
-				3FB90A8626624A8A8CA937FF /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7EDE5BD15A6063800C5903E /* IPReporter */ = {
+		F7EDE5BD15A6063800C5903E /* ipreporter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7EDE5CD15A6063800C5903E /* Build configuration list for PBXNativeTarget "IPReporter" */;
+			buildConfigurationList = F7EDE5CD15A6063800C5903E /* Build configuration list for PBXNativeTarget "ipreporter" */;
 			buildPhases = (
 				F7EDE5BA15A6063800C5903E /* Sources */,
 				F7EDE5BB15A6063800C5903E /* Frameworks */,
@@ -114,7 +114,7 @@
 			);
 			dependencies = (
 			);
-			name = IPReporter;
+			name = ipreporter;
 			productName = IPReporter;
 			productReference = F7EDE5BE15A6063800C5903E /* IPReporter */;
 			productType = "com.apple.product-type.tool";
@@ -140,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7EDE5BD15A6063800C5903E /* IPReporter */,
+				F7EDE5BD15A6063800C5903E /* ipreporter */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +233,12 @@
 					"\"$(PODS_ROOT)/Headers\"/**",
 					"\"$(PODS_ROOT)/Headers/AFNetworking\"/**",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods/build/Debug\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/IPReporter-dykscwlcfdtbtneusimoewbbuchh/Build/Products/Debug\"",
+					"\"$(SRCROOT)/Pods/build/Release\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -242,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96B55C74802B45E19D6E2BB6 /* Pods.xcconfig */;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "./PKG Files";
 				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IPReporter/IPReporter-Prefix.pch";
@@ -249,6 +256,12 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(PODS_ROOT)/Headers\"/**",
 					"\"$(PODS_ROOT)/Headers/AFNetworking\"/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods/build/Debug\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/IPReporter-dykscwlcfdtbtneusimoewbbuchh/Build/Products/Debug\"",
+					"\"$(SRCROOT)/Pods/build/Release\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -267,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7EDE5CD15A6063800C5903E /* Build configuration list for PBXNativeTarget "IPReporter" */ = {
+		F7EDE5CD15A6063800C5903E /* Build configuration list for PBXNativeTarget "ipreporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7EDE5CE15A6063800C5903E /* Debug */,
