@@ -20,22 +20,14 @@ static void PrintReachabilityFlags(
 // reachability flags (from the flags parameter), and the 
 // name of the host (from the hostname parameter).
 {
-    time_t      now;
-    struct tm   nowLocal;
-    char        nowLocalStr[30];
-    
+
     assert(hostname != NULL);
     
     if (comment == NULL) {
         comment = "";
     }
     
-    (void) time(&now);
-    (void) localtime_r(&now, &nowLocal);
-    (void) strftime(nowLocalStr, sizeof(nowLocalStr), "%X", &nowLocal);
-    
-    fprintf(stdout, "%s %c%c%c%c%c%c%c %s%s\n",
-            nowLocalStr,
+    NSLog(@"%c%c%c%c%c%c%c %s%s\n",
             (flags & kSCNetworkFlagsTransientConnection)  ? 't' : '-',
             (flags & kSCNetworkFlagsReachable)            ? 'r' : '-',
             (flags & kSCNetworkFlagsConnectionRequired)   ? 'c' : '-',
@@ -127,8 +119,8 @@ int main(int argc, const char * argv[])
             [data setObject:NSUserName() forKey:@"user"];
             
             //getIP(client);
-            //registerIP(client, data);
-            deleteRecords(client);
+            registerIP(client, data);
+            //deleteRecords(client);
         }
     }
     return 0;
