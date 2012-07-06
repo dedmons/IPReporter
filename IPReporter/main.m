@@ -72,8 +72,8 @@ static void registerIP(AFHTTPClient *client, NSDictionary *data){
     }
     NSLog(@"Status Code: %ld",op.response.statusCode);
 
-    NSDictionary *d = [NSJSONSerialization JSONObjectWithData:op.responseData options:NSJSONReadingAllowFragments error:nil];
-    NSLog(@"%@",d);
+    //NSDictionary *d = [NSJSONSerialization JSONObjectWithData:op.responseData options:NSJSONReadingAllowFragments error:nil];
+    NSLog(@"Response: %@",op.responseString);
 }
 
 static void deleteRecords(AFHTTPClient *client){
@@ -123,5 +123,8 @@ int main(int argc, const char * argv[])
             //deleteRecords(client);
         }
     }
+    NSLog(@"Sleeping before exit...");
+    sleep(15);
+    NSLog(@"Exiting");
     return 0;
 }
